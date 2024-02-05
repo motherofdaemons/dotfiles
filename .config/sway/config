@@ -70,6 +70,10 @@ output * bg ~/pictures/wallpapers/bridget.png fill
 #
 # Basics:
 #
+    # Volume controls
+    bindsym XF86AudioMute exec pamixer --toggle-mute 
+    bindsym XF86AudioRaiseVolume exec pamixer --increase 5 
+    bindsym XF86AudioLowerVolume exec pamixer --decrease 5 
     # Start a terminal
     bindsym $mod+Return exec $term
 
