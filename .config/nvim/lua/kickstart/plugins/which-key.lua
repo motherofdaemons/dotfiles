@@ -18,14 +18,17 @@ return { -- Useful plugin to show you pending keybinds.
   event = 'VimEnter', -- Sets the loading event to 'VimEnter'
   opts = {
     -- Document existing key chains
-      spec = {
-        { '<leader>c', group = '[C]ode', mode = { 'n', 'x' } },
-        { '<leader>d', group = '[D]ocument' },
-        { '<leader>r', group = '[R]ename' },
-        { '<leader>s', group = '[S]earch' },
-        { '<leader>w', group = '[W]orkspace' },
-        { '<leader>t', group = '[T]oggle' },
-        { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } },
-      },
+    spec = {
+      { '<leader>c', group = 'Code', mode = { 'n', 'x' } },
+      { '<leader>d', group = 'Debug' },
+      { '<leader>b', group = 'Buffer' },
+      { '<leader>r', group = 'Rename' },
+      { '<leader>s', group = 'Search' },
+      { '<leader>f', group = 'Find' },
+      { '<leader>t', group = 'Toggle' },
+      { '<leader>G', group = 'Git', mode = { 'n', 'v' } },
+      { '<leader>x', group = 'Diagnostics' },
+      { '<leader>u', group = 'Display' },
+    },
   },
 }

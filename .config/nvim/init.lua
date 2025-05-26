@@ -279,7 +279,7 @@ require('lazy').setup({
   require 'kickstart.plugins.lint',
   require 'kickstart.plugins.lsp',
   require 'kickstart.plugins.mini',
-  require 'kickstart.plugins.neo-tree',
+  -- require 'kickstart.plugins.neo-tree',
   require 'kickstart.plugins.telescope',
   require 'kickstart.plugins.tree-sitter',
   require 'kickstart.plugins.which-key',
