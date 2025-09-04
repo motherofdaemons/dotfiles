@@ -14,3 +14,6 @@ if status is-interactive
 end
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# track my ssh key pass
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519 2> /dev/null
