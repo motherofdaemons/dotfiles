@@ -12,3 +12,5 @@ if status is-interactive
     abbr -a cb cargo build
     abbr -a cbr cargo build --release
 end
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
