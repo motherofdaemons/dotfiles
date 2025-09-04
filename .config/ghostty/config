@@ -1,2 +1,4 @@
 theme = "catppuccin-frappe"
-font-family = "ComicCode Nerd Font"
+font-family = "ComicCodeLigatures Nerd Font"
+font-feature = "calt,liga,dlig"
+
